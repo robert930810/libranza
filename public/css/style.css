@@ -1,0 +1,220 @@
+#header{
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.items-container .row, .login-boton {
+    padding-top:30px;
+}
+.containImg{
+    position: relative;
+}
+
+.sombraSliderPrincipal{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.sliderPrincipal-textSlider{
+    color:#FFF;
+}
+
+.sliderPrincipal-containTextBottom,.sliderPrincipal-containTextLeft{
+    position: absolute;
+    top:40%;
+    left: 20%;
+    color:#FFF;
+}
+
+.sliderPrincipal-button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    color:#FFF;
+}
+
+.slick-slide img{
+    margin: auto;
+}
+
+#creditoLibranza {
+    padding-bottom: 90px;
+}
+
+.containerCreditoLibranza {
+    max-width: 1360px;
+    margin: auto;
+}
+
+.creditoLibranza-title, .credibilidad-title {
+    color: #001980;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0 0 60px 0;
+    position: relative;
+}
+
+.creditoLibranza-title:before {
+    background: #001980;
+    border-radius: 70px;
+    bottom: -14px;
+    content: "";
+    height: 4px;
+    left: 42%;
+    position: absolute;
+    width: 15%;
+}
+
+.creditoLibranza-title > strong, .credibilidad-title > strong {
+    font-weight: 700;
+}
+
+.container-creditoLibranzaCards {
+    padding: 30px;
+}
+
+.creditoLibranza-contianerTexto {
+    background: #fff;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 31px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 31px -11px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 31px -11px rgba(0,0,0,0.75);
+    min-height: 260px;
+    position: relative;
+}
+
+
+.creditoLibranza-contianerTexto:before {
+    content: "";
+    border-bottom: 80px solid transparent;
+    border-left: 80px solid;
+    border-radius: 10px 0 0 0;
+    border-right: 80px solid transparent;
+    border-top: 80px solid;
+    height: 0;
+    position: absolute;
+    width: 0;
+}
+
+.creditoLibranza-electrodomesticos:before{
+	border-left-color: #348dc7;
+	border-top-color: #348dc7;
+}
+
+.creditoLibranza-motos:before{
+	border-left-color: #ec2d35;
+	border-top-color: #ec2d35;
+}
+
+.creditoLibranza-viajes:before{
+	border-left-color: #3fcf64;
+	border-top-color: #3fcf64;
+}
+
+.creditoLibranza-libreInversion:before{
+	border-left-color: #fdbf3c;
+	border-top-color: #fdbf3c;
+}
+
+.containerText-creditoLibranzaCards {
+    padding: 60px 30px 10px 110px;
+    min-height: 280px;
+}
+
+.creditoLibranza-titleText {
+    color: #001980;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.creditoLibranza-text {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.creditoLibranza-buttonWhatsApp {
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 8px 10px 8px 10px;
+    background: #3fcf64;
+    color: white;
+}
+
+.creditoLibranza-buttonWhatsApp > i {
+    font-size: 20px;
+}
+.creditoLibranza-img {
+    left: 15px;
+    position: absolute;
+    top: 20px;
+    width: 70px;
+}
+
+#credibilidad {
+    margin-top: 60px;
+    padding: 50px 0;
+}
+
+.credibilidad-title:before {
+    background: #001980;
+    border-radius: 70px;
+    bottom: -14px;
+    content: "";
+    height: 4px;
+    left: 42%;
+    position: absolute;
+    width: 15%;
+}
+
+.credibilidad-text {
+    color: #001980;
+    font-weight: bold;
+}
+
+html,
+body {
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+    padding-top: 100px;
+}
+footer {
+    padding: 30px 0;
+}
+
+/*
+ * Custom styles
+ */
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-container {
+    padding: 20px 0 20px 0;
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: #222;
+    border-color: #080808;
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+.navbar-brand.fixed-theme {
+    font-size: 18px;
+}
+
+.navbar-container.fixed-theme {
+    padding: 0;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+}
